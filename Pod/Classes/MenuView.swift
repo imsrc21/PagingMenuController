@@ -20,7 +20,7 @@ open class MenuView: UIScrollView {
         $0.translatesAutoresizingMaskIntoConstraints = false
         return $0
     }(UIView(frame: .zero))
-    lazy fileprivate var underlineView: UIView = {
+    lazy public var underlineView: UIView = {
         return UIView(frame: .zero)
     }()
     lazy fileprivate var roundRectView: UIView = {
